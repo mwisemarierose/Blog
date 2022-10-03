@@ -1,9 +1,7 @@
 import React from 'react'
 import useLocalStorage from 'use-local-storage'
 import { useState } from 'react'
-import '../styles/login.css'
-
-
+// import '../styles/login.css'
 
 const Login = () => {
 
