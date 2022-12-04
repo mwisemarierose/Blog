@@ -29,7 +29,7 @@
   
   .app {
     /* background-color: var(--background); */
-    background-color: var(--text-secondary);
+    /* background-color: var(--text-secondary); */
     color: var(--text-primary);
     height: 100vh;
     display: flex;

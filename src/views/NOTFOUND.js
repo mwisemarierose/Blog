@@ -1,10 +1,25 @@
-const NotFound = () => {
-    return ( 
-        <div className="not-found">
-            <h2>not found</h2>
-            <p>that page cannot be found</p>
-        </div>
-     );
+import * as React from 'react';
+import Container from '@mui/material/Container';
+import notFound from '../assets/not_found.svg';
+import { Box, Typography } from '@mui/material';
+
+export default function NotFound() {
+    return (
+        <>
+        <Container maxWidth="xl"  className="book-container" >
+            <Box style={{
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems:'center',
+    height: '100vh',
+    }}>
+
+              <img style={{width:'50%'}} src={notFound}/>
+                  <Typography sx={{pt:3,fontWeight:'900', fontSize:'1.5em'}}>Page not found!</Typography>
+            </Box>
+        </Container>
+    
+    </>
+    );
 }
- 
-export default NotFound;

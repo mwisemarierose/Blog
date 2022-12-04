@@ -1,13 +1,23 @@
 import React from 'react'
-import useLocalStorage from 'use-local-storage'
-import { useState } from 'react'
-// import '../styles/login.css'
+import login from '../assets/login';
+
 
 const Login = () => {
 
     
     return ( 
+
         <div className="app" >
+          {/* <div className="slice-a">
+        <img src={login} alt="Login svg" />
+        <div className="welcome-text">
+          <h2>Welcome, we are happy to have you back</h2>
+          <p>
+            “Every moment and every event of every man’s life on earth plants
+            something in his soul”
+          </p>
+        </div>
+      </div> */}
         <div className='login'>
           <h1> Login</h1>
           <div className='container'>
