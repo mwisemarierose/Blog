@@ -13,12 +13,12 @@ const Navbar = () => {
           backgroundColor: 'purple',
           borderRadius: '8px' 
         }}>New Blog</Link>
-        <Link to="/blank">Blank</Link>
-        <Link to="/login" style={{ 
+        {/* <Link to="/blank">Blank</Link> */}
+        {/* <Link to="/login" style={{ 
           color: 'white', 
           backgroundColor: 'purple',
           borderRadius: '8px' 
-        }}>Log In</Link>
+        }}>Log In</Link> */}
       </div>
     
       

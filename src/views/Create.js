@@ -46,8 +46,7 @@ const Create = () => {
         <label>Blog image:</label>
         <input 
           type="file"
-          id="file" 
-          required 
+          id="file"  
           onChange={(e) => setImage(e.target.files[0])}
         />
         <label>Blog body:</label>
